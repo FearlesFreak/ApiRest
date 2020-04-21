@@ -13,6 +13,10 @@ app.use(express.json());
 //Routes
 //app.use(require('./routes'));
 app.use('/api/movies',require('./routes/movies'));
+app.use('/api/cities',require('./routes/cities'));
+app.use('/api/locals',require('./routes/locals'));
+app.use('/api/users',require('./routes/users'));
+app.use('/api/products_local',require('./routes/products_local'));
 
 //Starting Server
 app.listen(app.get('port'), () => {
