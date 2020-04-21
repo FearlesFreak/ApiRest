@@ -10,8 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.6",
     "express": "^4.17.1",
+    "express-session": "^1.15.1",
     "morgan": "^1.9.1",
-    "underscore": "^1.9.2"
+    "mysql": "^2.18.1",
+    "underscore": "^1.9.2",
+    "req-flash": "0.0.3"
   }
 }
